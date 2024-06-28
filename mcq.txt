@@ -1,0 +1,87 @@
+//#include <stdio.h>
+//int main() {
+//    int i;
+//    for(i=0;i<10;i++){
+//        if(i<5){
+//            continue;
+//        }
+//        else{
+//            break;
+//        }
+//        printf("bf");
+//    }
+//}
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=500,b=200,c;
+    if(!a>=100){
+        b=300;
+    }
+    c=300;
+    printf("%d %d",b,c);
+
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=500,b=200,c;
+    if(!(a>=100)){
+        b=300;
+    }
+    c=300;
+    printf("%d %d",b,c);
+
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=5;
+    float c=5.0;
+    if(a==c){
+        printf("yes");
+    }
+    else{
+        printf("no");
+    }
+    
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    char ch;
+    if(ch==printf("")){
+        printf("yes");
+    }
+    else{
+        printf("no");
+    }
+    
+}
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=b=c=10;
+    a=b=c=20;
+    printf("%d %d %d",a,b,c);
+    
+}
