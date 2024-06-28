@@ -85,3 +85,41 @@ int main() {
     printf("%d %d %d",a,b,c);
     
 }
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int x;
+    x=printf("Try programiz.pro");
+    printf("\nx=%d",x);
+
+    return 0;
+}
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int x=0;
+    for(;x;){
+        x++;
+    }
+    printf("%d",x);
+
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i=50;
+    printf("%c %d",i,i);
+
+    return 0;
+}
