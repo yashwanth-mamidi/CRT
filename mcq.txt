@@ -173,3 +173,28 @@ int main() {
 
     return 0;
 }
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=1;
+    printf("%d\n",sizeof(++a));
+    printf("%d",a);
+
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int c,a=10;
+    c=printf("%d",a);
+    printf("\n%d",c);
+
+    return 0;
+}
