@@ -198,3 +198,19 @@ int main() {
 
     return 0;
 }
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    
+    //printf("%d",1^2^3^4^5);
+    int i=6,l=3,r=6;
+    if(i%4==1)printf("%d\n",1);
+    if(i%4==2)printf("%d\n",i+1);
+    if(i%4==3)printf("%d\n",0);
+    if(i%4==0)printf("%d\n",i);
+    printf("%d",i^(1^l-1));
+}
