@@ -138,3 +138,38 @@ int main() {
 return 0;
 }
 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float a=0.5;
+    if(a==0.5){
+        printf("yes");
+    }
+    else{
+        printf("no");
+    }
+
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    char c ='a';
+    switch (c){
+        case 97:
+        printf("yes");
+        break;
+        
+        case 'a':
+        printf("no");
+        break;
+    }
+
+    return 0;
+}
