@@ -225,3 +225,22 @@ int xor(int n){
     if(n%4==0)return(n);
     
 }
+
+
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int ch=2;
+    switch(ch){
+        case 1:
+        printf("yes");
+        break;
+        case 2:
+        continue;
+        case 3:
+        printf("y");
+        break;
+    }
+
+    return 0;
+}
